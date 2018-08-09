@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
                 .getDefaultSharedPreferences(this);
 
         //Night mode
-        this.isNightModeEnabled = sharedPreferences.getBoolean(
+        isNightModeEnabled = sharedPreferences.getBoolean(
                 getString(R.string.settings_night_key), false);
 
         if (isNightModeEnabled) {
