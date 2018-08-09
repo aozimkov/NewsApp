@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Choose category-->
+    <ListPreference
+        android:defaultValue="@string/settings_category_default"
+        android:entries="@array/settings_category_labels"
+        android:entryValues="@array/settings_category_values"
+        android:key="@string/settings_category_key"
+        android:title="@string/settings_category_label" />
+
+    <CheckBoxPreference
+        android:title="@string/settings_trail_text_label"
+        android:summaryOn="@string/settings_trail_text_on_value"
+        android:summaryOff="@string/settings_trail_text_off_value"
+        android:key="@string/settings_trail_text_key"
+        />
+
+    <CheckBoxPreference
+        android:title="@string/settings_night_label"
+        android:summaryOn="@string/settings_night_on_value"
+        android:summaryOff="@string/settings_night_off_value"
+        android:key="@string/settings_night_key"
+        />
+
+</PreferenceScreen>

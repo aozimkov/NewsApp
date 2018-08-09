@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Main colors-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF7043</color>
+
+    <!--Colors for categories badges-->
+    <color name="news">#01579B</color>
+    <color name="music">#E65100</color>
+    <color name="science">#4A148C</color>
+    <color name="sport">#2E7D32</color>
+    <color name="business">#0D47A1</color>
+    <color name="default_color">#616161</color>
+
+    <!--Light Theme-->
+    <color name="primaryTextColorLight">#000000</color>
+    <color name="secondaryTextColorLight">#444444</color>
+    <color name="backgroundColorLight">#FFFFFF</color>
+
+    <!--Dark Theme-->
+    <color name="primaryTextColorDark">#FFFFFF</color>
+    <color name="secondaryTextColorDark">#999999</color>
+    <color name="backgroundColorDark">#263238</color>
+
+</resources>

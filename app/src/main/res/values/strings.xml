@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News App - TheGuardian</string>
+    <string name="news_not_found">News not found.</string>
+    <string name="no_internet">No internet connection.</string>
+
+    <!--Strings for settings activity-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News settings</string>
+
+    <!-- Strings For Categories Preference [CHAR LIMIT=30] -->
+    <string name="settings_category_label">Categories</string>
+    <string name="settings_category_key" translatable="false">categories</string>
+    <string name="settings_category_default" translatable="false">@string/settings_category_all_value</string>
+
+    <!-- Label for Categories science option [CHAR LIMIT=20] -->
+    <string name="settings_category_science_label">Science</string>
+    <string name="settings_category_science_value" translatable="false">science</string>
+
+    <!-- Label for Categories news option [CHAR LIMIT=20] -->
+    <string name="settings_category_news_label">News</string>
+    <string name="settings_category_news_value" translatable="false">news</string>
+
+    <!-- Label for Categories news option [CHAR LIMIT=20] -->
+    <string name="settings_category_music_label">Music</string>
+    <string name="settings_category_music_value" translatable="false">music</string>
+
+    <!-- Label for Categories science option [CHAR LIMIT=20] -->
+    <string name="settings_category_all_label">All</string>
+    <string name="settings_category_all_value" translatable="false">all</string>
+
+    <!--Strings for Show text Checkbox [CHAR LIMIT=30]-->
+    <string name="settings_trail_text_label">Show trail text</string>
+    <string name="settings_trail_text_key" translatable="false">trailText</string>
+
+    <!--Values for Show text Checkbox [CHAR LIMIT=20]-->
+    <string name="settings_trail_text_on_value" translatable="false">on</string>
+    <string name="settings_trail_text_off_value" translatable="false">off</string>
+
+    <!--Strings for Night mode Checkbox [CHAR LIMIT=30]-->
+    <string name="settings_night_label">Night mode</string>
+    <string name="settings_night_key" translatable="false">night_mode</string>
+
+    <!--Values for Night Mode Checkbox [CHAR LIMIT=20]-->
+    <string name="settings_night_on_value" translatable="false">on</string>
+    <string name="settings_night_off_value" translatable="false">off</string>
+
+</resources>

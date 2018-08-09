@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Category">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingStart">@dimen/small_padding</item>
+        <item name="android:paddingEnd">@dimen/small_padding</item>
+    </style>
+
+    <!-- Light base activity theme-->
+    <style name="ActivityTheme.Primary.Base.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="primaryTextColor">@color/primaryTextColorLight</item>
+        <item name="secondaryTextColor">@color/secondaryTextColorLight</item>
+    </style>
+    <!--Dark base activity theme -->
+    <style name="ActivityTheme.Primary.Base.Dark"    parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="primaryTextColor">@color/primaryTextColorDark</item>
+        <item name="secondaryTextColor">@color/secondaryTextColorDark</item>
+    </style>
+
+    <!-- Specific Feed activity theme -->
+    <style name="MainActivityThemeLight" parent="ActivityTheme.Primary.Base.Light">
+        <item name="android:windowBackground">@color/backgroundColorLight</item>
+    </style>
+    <style name="MainActivityThemeDark" parent="ActivityTheme.Primary.Base.Dark">
+        <item name="android:windowBackground">@color/backgroundColorDark</item>
+    </style>
+
+</resources>

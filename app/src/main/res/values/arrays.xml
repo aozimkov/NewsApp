@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_category_labels">
+        <item>@string/settings_category_science_label</item>
+        <item>@string/settings_category_news_label</item>
+        <item>@string/settings_category_music_label</item>
+        <item>@string/settings_category_all_label</item>
+    </string-array>
+
+    <string-array name="settings_category_values">
+        <item>@string/settings_category_science_value</item>
+        <item>@string/settings_category_news_value</item>
+        <item>@string/settings_category_music_value</item>
+        <item>@string/settings_category_all_value</item>
+    </string-array>
+
+
+</resources>
